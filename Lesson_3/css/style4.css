@@ -1,0 +1,11 @@
+a.class_yellow{
+	color: #f70;
+}
+
+a.google{
+	color: #666;
+}
+
+a.class_yellow.targ:hover{
+	text-decoration: none;
+}

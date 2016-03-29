@@ -1,0 +1,38 @@
+div#nav{
+    
+    height: 35px;
+    background: #a35ac4;
+    margin: 0 auto;
+    border: 1px solid #f0ecec;
+        
+}
+
+#nav ul{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#nav ul li{
+    float: left;
+    list-style-type: none;
+}
+
+#nav ul li.float{
+    float: right;
+}
+
+#nav ul li a{
+    color: beige;
+    padding:0 20px;
+    font-family: Economica;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 35px;
+    text-transform:uppercase;
+    display: inline-block;
+}
+
+#nav ul li a:hover{
+    background: #f0ecec;
+    color: #9b9b9b;
+}

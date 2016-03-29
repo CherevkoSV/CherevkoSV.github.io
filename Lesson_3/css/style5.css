@@ -1,0 +1,13 @@
+td:nth-child(2n+3) {
+	background: rgb(248, 205, 185);
+}
+
+
+tr:nth-child(even){
+    background: #ddebf7;
+}
+
+/*td:first-child{
+    background: white;
+}
+*/
