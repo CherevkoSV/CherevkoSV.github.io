@@ -38,7 +38,7 @@ div#nav{
 }
 
 div#pagination{
-    background:#f0ecec;
+    background:#f8f8f8;
     margin: 0 auto;
     height: 35px;
     width: 520px;
@@ -46,20 +46,19 @@ div#pagination{
 
 #pagination ul li{
     display: inline-block;
-    
+    margin-top: 6px;
 }
 
 #pagination ul li a{
     font-family: Economica;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px;
     color: #924cb1;
     text-decoration: none;
     text-transform:uppercase;
     display: inline-block;
     line-height: 1px;
-     
 }
 
 .number{
@@ -67,5 +66,27 @@ div#pagination{
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     border: 1px solid #a5a1a1;
+}
+
+#pagination ul li.number a:hover{
+    color: aliceblue;
+}
+
+li.number:hover{
+    background: #924cb1;
+}
+
+li.before:before{
+    content: "<<";
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Economica;
+}
+
+li.after:after{
+    content: ">>";
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Economica;
 }
 
