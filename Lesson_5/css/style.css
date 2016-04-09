@@ -32,11 +32,15 @@ div#nav {
     color: #9fa1a0;
 }
 
-#nav ul.dropdawn {
+ul.dropdawn {
     position: absolute;
     background:#eeeeee;
     display: none;
-    width: 900px;
+    padding-left: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    
 }
 
 #nav ul.dropdawn li a{
