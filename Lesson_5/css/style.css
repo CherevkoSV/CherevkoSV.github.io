@@ -36,12 +36,20 @@ ul.dropdawn {
     position: absolute;
     background:#eeeeee;
     display: none;
+<<<<<<< HEAD
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left:28%;
+}     
+=======
     padding-left: 0px;
     left: 0px;
     width: 100%;
     margin: 0 auto;
     
 }
+>>>>>>> 5e5db4de8e74c24710a9fa4186c9e975722456c1
 
 #nav ul.dropdawn li a{
     color: #9fa1a0;
@@ -49,6 +57,10 @@ ul.dropdawn {
     font-weight: lighter;
     text-transform: capitalize;
     font-size: 15px;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 5e5db4de8e74c24710a9fa4186c9e975722456c1
 }
 #nav ul.dropdawn li a:hover {
      color: #777777;
@@ -57,4 +69,7 @@ ul.dropdawn {
 #nav li:hover .dropdawn {
     display: block;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 5e5db4de8e74c24710a9fa4186c9e975722456c1
