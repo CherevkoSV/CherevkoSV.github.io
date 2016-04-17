@@ -1,0 +1,69 @@
+.main {
+    height: 468px;
+    width: 295px;
+    margin: 0 auto;
+    background: #ee8c29;
+    border: 3px solid #e2e2e2;
+    border-radius: 7px;
+    position: relative;
+}
+
+.header{
+    position: relative;
+    background: #ee8c29;
+    width: 295px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+}
+
+.header span{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 26px;
+    padding-bottom: 20px;  
+}
+
+.body {
+    height: 387px;
+    width: 287px;
+    position: absolute;
+    background: #fff;
+    border: 4px solid #ee8c29;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/*оформление body*/
+
+.name{
+    position: relative;
+    background: #c7b2b2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.name span{
+    color:#000000;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+
+.price span{
+    color:#35495a;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.price span.dol{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
