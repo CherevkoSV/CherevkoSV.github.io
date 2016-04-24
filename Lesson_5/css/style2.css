@@ -5,11 +5,9 @@
     background: #ee8c29;
     border: 3px solid #f0fffc;
     border-radius: 7px;
-    position: relative;
 }
 
 .header{
-    position: relative;
     background: #ee8c29;
     width: 295px;
         border-top-left-radius: 7px;
@@ -30,7 +28,6 @@
 .body {
     height: 377px;
     width: 287px;
-    position: absolute;
     background: #fff;
     border: 4px solid #ee8c29;
     border-bottom-left-radius: 7px;
@@ -38,7 +35,6 @@
 }
 
 .name{
-    position: relative;
     padding-top: 19px;
     padding-bottom: 12px;
 }
@@ -53,7 +49,6 @@
 }
 
 .price{
-    position: relative;
     padding-bottom: 6px;
 }
 
@@ -80,7 +75,6 @@
 }
 
 .paragraph {
-    position: relative;
     font-family: 'Arimo', sans-serif;
     color: grey;
     font-size: 15px;
