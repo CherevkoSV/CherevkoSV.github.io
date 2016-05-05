@@ -1,0 +1,92 @@
+.reviews {
+    background-image:url(../img/bg-1.jpg);
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    height: 350px;
+}
+.title{
+    padding-top: 58px;
+    padding-bottom: 51px;
+}
+
+.title h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    text-align: center;
+    color: #3170a8;
+    margin: 0;
+}
+span.orange{color: #ee8129;}
+
+.comments{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.comment-one{
+    display: inline-block;
+    padding-right: 45px;
+    float: left;
+}
+.comment-two{
+    display: inline-block;
+    float: left;
+}
+
+.images{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding-right: 28px;
+}
+.images img{height: 105%;width:105%;}
+
+div.testimonials{
+    position: relative;
+    display: inline-block;
+    height: 106px;
+    width: 394px;
+    background: #f7f7f7;
+    top:-21px;
+}
+div.testimonials::before{
+    content: '';
+    position: absolute;
+    border: 15px solid transparent;	
+    border-right: 20px solid #f7f7f7;
+    left: -32px;
+    top: 30px;
+}
+
+span.name, .customer{
+    color: #3170a8;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+span.customer{float: right;}
+div.headername{
+    width: 360px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #666666;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+p.testimonials {
+    font-family: Trebuchet MS;
+    color:#666666;
+    font-size: 95%;
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
