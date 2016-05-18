@@ -52,7 +52,7 @@ header{
 
 h1.logo{
     display:block;
-    width: 423px;
+    width: 483px;
     height: 70px;
     float: left;
     color: #ee8129;
@@ -68,7 +68,7 @@ span.logo{
 }
 
 ul.header{
-    width:600px;
+    width:540px;
     float: right;
     padding-top: 46px;
 }
@@ -92,13 +92,14 @@ ul.header li a:hover{
     border-bottom: 4px solid #3070a8;
 }
 /*секция-1 -------------*/
-article{
+
+div.article{
     background-image: url(../img/bg-1.jpg);
     background-size: 100% 100%;
     height: 585px;
 }
 
-div.article{
+div.banner{
     width: 1023px;
     margin: 0 auto;
     height: 585px;
@@ -113,6 +114,7 @@ h1.banner{
     font-size: 48px;
     padding: 8px 20px;
     line-height: 1.2;
+    letter-spacing: 1px;
 }
 
 h3.banner{
@@ -122,10 +124,12 @@ h3.banner{
     padding-top: 154px;
     font-stretch: expanded;
     font-size: 32px;
+    letter-spacing: 2px;
 }
 
 p.banner{
-    padding:15px 216px ;
+    padding:15px 216px;
+    padding-bottom: 36px;
     color: white;
     font-family: Arimo;
     font-style: italic;
@@ -133,4 +137,78 @@ p.banner{
     font-size: 17px;
     text-align: center;
     letter-spacing: 1px;
+}
+
+button.button_1{
+    display: block;
+    margin: 0 auto;
+    width: 248px;
+    padding: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+button.button_1:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/*секция-2 --------------*/
+
+div.services{
+    width: 1023px;
+    margin: 0 auto;
+}
+
+h2.services{
+    color: #41525c;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 79px;
+}
+
+
+div.protect{
+    width:338px;
+    display: inline-block;
+}
+
+div.alert{
+    width:338px;
+    display: inline-block;
+}
+
+div.detect{
+    width:338px;
+    display: inline-block;
+}
+
+p#icon {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+h2.und_icon{
+    color: #3070a8;
+    font-family: 'Muli', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+p.services{
+    text-align: center;
+    color:#a9a9a9;
+    font-family: Arimo;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0px 18px;
+    padding-bottom: 62px;
 }
