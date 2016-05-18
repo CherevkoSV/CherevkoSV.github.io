@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Reset---------------*/
+
+/*шапка-----*/
+header{
+    width: 1023px;
+    margin: 0 auto;
+    height: 116px;
+}
+
+h1.logo{
+    display:block;
+    width: 423px;
+    height: 70px;
+    float: left;
+    color: #ee8129;
+    font-family: 'Arimo', sans-serif;
+    font-size: 34px;
+    line-height: 25px;
+    padding-top: 46px;
+}
+
+span.logo{
+    font-weight:bolder;
+    color:#3070a8;
+}
+
+ul.header{
+    width:600px;
+    float: right;
+    padding-top: 46px;
+}
+
+ul.header li{
+    float: left;
+    height: 70px;
+    line-height: 44px;
+}
+
+ul.header li a{
+    text-decoration: none;
+    color: #989898;
+    font-family: Arimo;
+    font-size: 13px;
+    padding: 36px 14px;
+}
+
+ul.header li a:hover{
+    color:#3070a8;
+    border-bottom: 4px solid #3070a8;
+}
+/*секция-1 -------------*/
+article{
+    background-image: url(../img/bg-1.jpg);
+    background-size: 100% 100%;
+    height: 585px;
+}
+
+div.article{
+    width: 1023px;
+    margin: 0 auto;
+    height: 585px;
+}
+
+h1.banner{
+    color: white;
+    text-align: center;
+    font-family: Arimo;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 48px;
+    padding: 8px 20px;
+    line-height: 1.2;
+}
+
+h3.banner{
+    color: white;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    padding-top: 154px;
+    font-stretch: expanded;
+    font-size: 32px;
+}
+
+p.banner{
+    padding:15px 216px ;
+    color: white;
+    font-family: Arimo;
+    font-style: italic;
+    line-height: 1.8;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+}
