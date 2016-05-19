@@ -272,3 +272,243 @@ img.elipse{
     left:12px;
     padding-top: 8px;
 }
+
+/*секция 4-------------*/
+
+div.pricing{
+    width: 1023px;
+    margin: 0 auto;
+}
+/*Заголовок*/
+.banner2{
+    display: block;
+    margin: 0 auto;
+    padding-top: 74px;
+    padding-bottom: 58px;
+}
+
+h2.pricing{
+    font-family: 'Arimo', sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+    color:#35495a;
+    font-weight: bold;
+    font-size: 28px;
+}
+/*container*/
+div.container{
+    width: 872px;
+    margin: auto;
+    padding-bottom: 74px;
+}
+
+/*средний ценник*/
+.main_center {
+    display: inline-block;
+    width: 288px;
+    margin: auto;
+    border: 3px solid #ee8c29;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px; 
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(186,222,245,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(186,222,245,1);
+    box-shadow: 0px 0px 10px 1px rgba(186,222,245,1);
+}
+
+div.header_center{
+    background: #ee8c29;
+    width: 288px;
+}
+
+div.header_center span{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 26px;
+    padding-bottom: 20px;  
+}
+/*оформление body*/
+.body {
+    width: 288px;
+}
+
+.name{
+    padding-top: 19px;
+    padding-bottom: 12px;
+}
+
+.name span{
+    color:#35495a;
+    font-family: 'Arimo', sans-serif;
+    font-size:  22px;
+    text-align: center;
+    display: block;
+}
+
+.main_price{
+    padding-bottom: 6px;
+}
+
+.main_price span{
+    color:#35495a;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+sup.price {
+    position: relative;
+    font-weight:bold;
+    font-size: 16px;
+    top:-36px;
+}
+sub.month {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    top:6px;
+}
+
+.paragraph {
+    font-family: 'Arimo', sans-serif;
+    color: grey;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+
+ul.list{
+    padding:0;
+}
+
+.list li{
+    list-style: none;
+    padding: 10px;
+    margin: 1px;
+}
+
+img.marker{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul.list li:nth-child(2n+1){background: #edf5fd;}
+ul.list li:nth-child(2n)  {background: #f5f5f6;}
+
+.button.center {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 30px;
+}
+button.b_center{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    background: #ee8c29;
+    border: none;
+    border-radius: 4px;
+    width: 252px;
+    height: 38px;
+    border-bottom: 3px solid rgb(179,86,11);
+}
+.button :hover{border:none;}
+
+/*левый ценник*/
+.main_left{
+    width: 288px;
+    position: relative;
+    top: 16px;
+    float: left;
+    border: 1px solid #e6e6e6;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    border-right: none;
+}
+.header_left{
+    background: #37c2d3;
+    width: 288px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 0px;
+}
+
+.header_left span{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 12px;  
+}
+
+.button.left {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+button.b_left{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    background: #3371a6;
+    border: none;
+    border-radius: 4px;
+    width: 252px;
+    height: 38px;
+    border-bottom: 3px solid #16436a;
+}
+/*правый ценник*/
+.main_right{
+    position: relative;
+    top: 16px;
+    float: right;
+    width: 288px;
+    border: 1px solid #e6e6e6;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    border-left:none;
+}
+.header_right{
+    background: #1cb79a;
+    width: 288px;
+        border-top-right-radius: 7px;
+}
+
+.header_right span{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 12px;  
+}
+
+.button.right {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+button.b_right{
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+    background: #3371a6;
+    border: none;
+    border-radius: 4px;
+    width: 252px;
+    height: 38px;
+    border-bottom: 3px solid #16436a;
+}
