@@ -212,3 +212,63 @@ p.services{
     padding: 0px 18px;
     padding-bottom: 62px;
 }
+
+/*секция-3 ------------*/
+
+div.middle-section{
+    background-image: url(../img/bg-2.jpg);
+    background-size: 100% 100%;
+    height: 576px;
+}
+
+div.article-3{
+    width: 1023px;
+    margin: 0 auto;
+}
+
+h2.middle-section{
+    width: 688px;
+    color:#ee8129;
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+    padding-top: 78px;
+}
+
+p.middle-section{
+    width: 688px;
+    color:#ffffff;
+    font-family: Arimo;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+ul.middle-section{
+    width: 648px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    padding-left: 38px;
+    position: relative;
+}
+
+li.grey{
+    color: #848485;
+    padding-bottom: 20px;
+}
+
+li.blue{
+    color:#3070a8;
+    padding-bottom: 20px;
+}
+
+img.elipse{
+    position: absolute;
+    left:12px;
+    padding-top: 8px;
+}
