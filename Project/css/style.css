@@ -597,13 +597,13 @@ p.testimonials{
 /*footer ---------------*/
 
 div.contacts{
-    width: 452px;
+    margin-left: 18%;
+    width: 220px;
     height: 303px;
-    display: inline-block;
-    margin-left: 280px;
     padding-left: 60px;
     padding-top: 42px;
     position: relative;
+    display: inline-block;
 }
 
 div.maps{
