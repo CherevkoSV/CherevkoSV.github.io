@@ -6,6 +6,35 @@
     <link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+    <script type="text/javascript">
+
+        $(function() {
+
+        $(window).scroll(function() {
+
+        if($(this).scrollTop() != 0) {
+
+        $('#toTop').fadeIn();
+
+        } else {
+
+        $('#toTop').fadeOut();
+
+        }
+
+        });
+
+        $('#toTop').click(function() {
+
+        $('body,html').animate({scrollTop:0},800);
+
+        });
+
+        });
+
+    </script>
 </head>  
 <body>
     <header>
@@ -24,7 +53,7 @@
             <div class="banner">
                 <h3 class="banner">We are specialist in</h3><h1 class="banner">Responsive designs, Stationary And wordpress themes</h1>
                 <p class="banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                <button class="button_1">BUTTON NAME</button>
+                <button class="buy-button">BUTTON NAME</button>
             </div>
         </div>
         
@@ -169,8 +198,9 @@
                 <p class="footer-cont">Copyright © 2016 <span class="bold">Company Name</span>. All rights reserved.</p>
                 <p class="footer-cont">Designed by <span class="black">IconicGraphics.com</span></p>
             </div>
+            <div id="toTop">^</div>
         </div>
-    </footer>       
+    </footer>
 </body>    
     
 </html>

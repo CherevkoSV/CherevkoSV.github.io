@@ -139,7 +139,7 @@ p.banner{
     letter-spacing: 1px;
 }
 
-button.button_1{
+button.buy-button{
     display: block;
     margin: 0 auto;
     width: 248px;
@@ -150,9 +150,10 @@ button.button_1{
     font-weight: bold;
     font-size: 16px;
     font-family: 'Muli', sans-serif;
+    cursor: pointer;
 }
 
-button.button_1:hover{
+button.buy-button:hover{
     background-color: rgba(255, 255, 255, 0.4);
     border-color: rgba(255, 255, 255, 0.4);
 }
@@ -420,6 +421,7 @@ button.b_center{
     width: 252px;
     height: 38px;
     border-bottom: 3px solid rgb(179,86,11);
+    cursor: pointer;
 }
 .button :hover{border:none;}
 
@@ -467,6 +469,7 @@ button.b_left{
     width: 252px;
     height: 38px;
     border-bottom: 3px solid #16436a;
+    cursor: pointer;
 }
 /*правый ценник*/
 .main_right{
@@ -511,6 +514,7 @@ button.b_right{
     width: 252px;
     height: 38px;
     border-bottom: 3px solid #16436a;
+    cursor: pointer;
 }
 
 /* Секция 5 -----------------*/
@@ -652,6 +656,7 @@ img.footer{
     right: 64px;
     top: 20px;
     padding: 11px;
+    cursor: pointer;
 }
 
 div.footer{
@@ -679,4 +684,29 @@ span.bold{
 span.black{
     color: black;
     font-weight: bolder;
+}
+
+/*стрелка навигац-----*/
+#toTop{
+    width:30px;
+    border:1px solid #b5b5b5;
+    background:#e2e2e2;
+    text-align:center;
+    padding:10px 10px 5px 10px;
+    position:fixed;
+    bottom:35px; /* отступ кнопки от нижнего края страницы*/
+    right:35px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:'Muli', sans-serif;
+    font-size:24px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+#toTop:hover{
+    background:#f7f7f7;
 }
