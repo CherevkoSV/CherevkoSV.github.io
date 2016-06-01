@@ -613,7 +613,6 @@ div.contacts{
 div.maps{
     height: 345px;
     width: 50%;
-    background-image: url(../img/img-maps.jpg);
     background-size: 100% 100%;
     float: right;
 }
