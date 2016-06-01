@@ -47,3 +47,55 @@ div.detect{
     width: 100%;
 }
 
+div.article-3{
+    width:100%;
+}
+
+div.pricing{
+    width:100%;
+}
+
+div.testimonials{
+    height: 420px;
+}
+
+div.block_says{
+    width: 100%;
+}
+
+h2.title{
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+div.coment-one{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    padding-bottom: 20px;
+}
+
+div.coment-two{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    padding-bottom: 20px;
+}
+
+div.contacts{
+    display: block;
+    margin:  0 auto;
+}
+
+div.maps{
+    float: none;
+    width: 100%;
+}
+
+div.in-footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}

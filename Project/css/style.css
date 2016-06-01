@@ -277,7 +277,7 @@ img.elipse{
 /*секция 4-------------*/
 
 div.pricing{
-    width: 1023px;
+    width: 100%;
     margin: 0 auto;
 }
 /*Заголовок*/
@@ -525,7 +525,7 @@ div.testimonials{
     height: 315px;
 }
 
-div.block5{
+div.block_says{
     width: 1023px;
     margin: 0 auto;
     height: 315px;
